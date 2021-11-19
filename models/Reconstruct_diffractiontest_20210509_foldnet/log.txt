@@ -1,0 +1,1471 @@
+Namespace(batch_size=16, dataset='diffractiontest', dataset_root='/content/drive/MyDrive/202105_nanoDiffraction/data', dropout=0.5, encoder='foldnet', epochs=5000, eval=False, exp_name='diffractiontest_20210509_foldnet', feat_dims=512, gpu='0', k=32, model_path='', no_cuda=False, num_points=2048, shape='gaussian', snapshot_interval=10, task='reconstruct', use_jitter=False, use_rotate=False, use_translate=False, workers=50)
+Training set size: 8786
+Training start!!
+Epoch 1: Loss 93866768.0, time 71.9444s
+Epoch 2: Loss 52695076.0, time 69.0605s
+Epoch 3: Loss 51737188.0, time 69.0286s
+Epoch 4: Loss 50834660.0, time 69.0308s
+Epoch 5: Loss 50296364.0, time 69.1073s
+Epoch 6: Loss 49914920.0, time 69.0938s
+Epoch 7: Loss 49294764.0, time 69.1367s
+Epoch 8: Loss 45125192.0, time 69.0273s
+Epoch 9: Loss 31416856.0, time 69.1301s
+Epoch 10: Loss 23446248.0, time 69.0554s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_10.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 11: Loss 26888172.0, time 69.2206s
+Epoch 12: Loss 22234998.0, time 69.1892s
+Epoch 13: Loss 20983462.0, time 69.1058s
+Epoch 14: Loss 20359332.0, time 69.0883s
+Epoch 15: Loss 19850986.0, time 69.1434s
+Epoch 16: Loss 19254954.0, time 69.1482s
+Epoch 17: Loss 18157724.0, time 69.1774s
+Epoch 18: Loss 16690243.0, time 69.1884s
+Epoch 19: Loss 15113380.0, time 69.1906s
+Epoch 20: Loss 13872100.0, time 69.2085s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_20.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 21: Loss 12672714.0, time 69.1477s
+Epoch 22: Loss 11636020.0, time 69.2007s
+Epoch 23: Loss 10369717.0, time 69.0356s
+Epoch 24: Loss 12014868.0, time 69.1361s
+Epoch 25: Loss 11496168.0, time 69.0490s
+Epoch 26: Loss 9939409.0, time 68.9505s
+Epoch 27: Loss 9360292.0, time 68.8515s
+Epoch 28: Loss 8895088.0, time 68.4059s
+Epoch 29: Loss 8562772.0, time 68.4496s
+Epoch 30: Loss 8216880.5, time 68.2772s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_30.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 31: Loss 7937539.5, time 68.3090s
+Epoch 32: Loss 7697550.5, time 68.4085s
+Epoch 33: Loss 7497409.5, time 68.2874s
+Epoch 34: Loss 7148063.5, time 68.3837s
+Epoch 35: Loss 7037674.5, time 68.2867s
+Epoch 36: Loss 6782652.0, time 68.3631s
+Epoch 37: Loss 6699084.5, time 68.4435s
+Epoch 38: Loss 6511262.5, time 68.3602s
+Epoch 39: Loss 6547729.0, time 68.4119s
+Epoch 40: Loss 6313588.5, time 68.5151s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_40.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 41: Loss 6263444.0, time 68.5539s
+Epoch 42: Loss 6149635.5, time 68.4847s
+Epoch 43: Loss 5979742.0, time 68.4679s
+Epoch 44: Loss 5916977.5, time 68.4537s
+Epoch 45: Loss 5810436.5, time 68.5129s
+Epoch 46: Loss 5840999.0, time 68.4507s
+Epoch 47: Loss 5685698.5, time 68.4459s
+Epoch 48: Loss 5781112.0, time 68.5360s
+Epoch 49: Loss 5598582.0, time 68.5499s
+Epoch 50: Loss 5496271.0, time 68.4773s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_50.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 51: Loss 5518939.0, time 68.4875s
+Epoch 52: Loss 5525012.0, time 68.3668s
+Epoch 53: Loss 5469482.0, time 68.5001s
+Epoch 54: Loss 5372162.0, time 68.5068s
+Epoch 55: Loss 5220173.5, time 68.4576s
+Epoch 56: Loss 5141851.0, time 68.6493s
+Epoch 57: Loss 5195680.0, time 68.5624s
+Epoch 58: Loss 5236313.5, time 68.5672s
+Epoch 59: Loss 5223565.5, time 68.4978s
+Epoch 60: Loss 5055281.5, time 68.5512s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_60.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 61: Loss 5062034.5, time 68.5064s
+Epoch 62: Loss 4960799.5, time 68.4832s
+Epoch 63: Loss 4961486.0, time 68.5795s
+Epoch 64: Loss 4969638.5, time 68.5968s
+Epoch 65: Loss 4911448.5, time 68.5644s
+Epoch 66: Loss 4815755.5, time 68.4604s
+Epoch 67: Loss 4942744.5, time 68.5590s
+Epoch 68: Loss 4828128.5, time 68.4760s
+Epoch 69: Loss 4698534.0, time 68.4206s
+Epoch 70: Loss 4690476.0, time 68.3752s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_70.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 71: Loss 4665031.0, time 68.3990s
+Epoch 72: Loss 4733076.0, time 68.3462s
+Epoch 73: Loss 4566499.5, time 68.4400s
+Epoch 74: Loss 4547294.5, time 68.3340s
+Epoch 75: Loss 4521788.5, time 68.3747s
+Epoch 76: Loss 4487353.0, time 68.4878s
+Epoch 77: Loss 4535513.0, time 68.4964s
+Epoch 78: Loss 4451562.5, time 68.4101s
+Epoch 79: Loss 4379866.5, time 68.3854s
+Epoch 80: Loss 4404252.0, time 68.4105s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_80.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 81: Loss 4327917.5, time 68.4379s
+Epoch 82: Loss 4356388.0, time 68.4773s
+Epoch 83: Loss 4365016.0, time 68.4559s
+Epoch 84: Loss 4275532.5, time 68.4198s
+Epoch 85: Loss 4261003.5, time 68.4328s
+Epoch 86: Loss 4344585.5, time 68.6885s
+Epoch 87: Loss 4220037.0, time 68.7001s
+Epoch 88: Loss 4245423.5, time 68.3826s
+Epoch 89: Loss 4261568.0, time 68.3581s
+Epoch 90: Loss 4210453.0, time 68.4267s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_90.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 91: Loss 4148811.5, time 68.5173s
+Epoch 92: Loss 4159845.5, time 68.3546s
+Epoch 93: Loss 4124070.75, time 68.4543s
+Epoch 94: Loss 4143250.5, time 68.3405s
+Epoch 95: Loss 4021325.25, time 68.3902s
+Epoch 96: Loss 4176296.0, time 68.4647s
+Epoch 97: Loss 3943614.25, time 68.3951s
+Epoch 98: Loss 4003588.75, time 68.4030s
+Epoch 99: Loss 4049299.0, time 68.3436s
+Epoch 100: Loss 3681693.0, time 68.4316s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_100.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 101: Loss 3561205.25, time 68.4344s
+Epoch 102: Loss 3377334.5, time 68.4401s
+Epoch 103: Loss 3170020.75, time 68.4316s
+Epoch 104: Loss 3104622.25, time 68.4014s
+Epoch 105: Loss 3076787.25, time 68.3566s
+Epoch 106: Loss 2997145.75, time 68.4401s
+Epoch 107: Loss 3025224.25, time 68.2604s
+Epoch 108: Loss 2899856.75, time 68.3952s
+Epoch 109: Loss 2910349.25, time 68.3646s
+Epoch 110: Loss 2943997.75, time 68.3456s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_110.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 111: Loss 2838196.25, time 68.5315s
+Epoch 112: Loss 2841117.25, time 68.4392s
+Epoch 113: Loss 2778546.75, time 68.4474s
+Epoch 114: Loss 2832971.75, time 68.4154s
+Epoch 115: Loss 2752829.5, time 68.5219s
+Epoch 116: Loss 2761430.25, time 68.6289s
+Epoch 117: Loss 2785020.75, time 68.4806s
+Epoch 118: Loss 2741874.0, time 68.1434s
+Epoch 119: Loss 2708859.75, time 68.1888s
+Epoch 120: Loss 2681401.5, time 68.2922s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_120.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 121: Loss 2720867.5, time 68.2209s
+Epoch 122: Loss 2656866.0, time 68.2001s
+Epoch 123: Loss 2642869.75, time 68.1443s
+Epoch 124: Loss 2671995.25, time 68.2376s
+Epoch 125: Loss 2630729.0, time 68.2649s
+Epoch 126: Loss 2665533.5, time 68.2171s
+Epoch 127: Loss 2606764.75, time 68.2550s
+Epoch 128: Loss 2584541.25, time 68.1875s
+Epoch 129: Loss 2577612.75, time 68.3407s
+Epoch 130: Loss 2532852.25, time 68.6088s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_130.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 131: Loss 2552428.25, time 68.3665s
+Epoch 132: Loss 2566966.5, time 68.3879s
+Epoch 133: Loss 2484061.5, time 68.3455s
+Epoch 134: Loss 2491478.0, time 68.3171s
+Epoch 135: Loss 2478435.25, time 68.3318s
+Epoch 136: Loss 2482423.75, time 68.3571s
+Epoch 137: Loss 2498154.0, time 68.3825s
+Epoch 138: Loss 2436114.5, time 68.3305s
+Epoch 139: Loss 2440758.25, time 68.4282s
+Epoch 140: Loss 2455018.25, time 68.4003s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_140.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 141: Loss 2401677.0, time 68.3631s
+Epoch 142: Loss 2403637.75, time 68.2989s
+Epoch 143: Loss 2410758.0, time 68.2714s
+Epoch 144: Loss 2381283.25, time 68.3171s
+Epoch 145: Loss 2369328.75, time 68.3214s
+Epoch 146: Loss 2362979.5, time 68.3229s
+Epoch 147: Loss 2333506.75, time 68.2996s
+Epoch 148: Loss 2352718.5, time 68.3990s
+Epoch 149: Loss 2345758.75, time 68.3480s
+Epoch 150: Loss 2329227.0, time 68.3414s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_150.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 151: Loss 2315134.25, time 68.3673s
+Epoch 152: Loss 2282544.0, time 68.3369s
+Epoch 153: Loss 2284297.75, time 68.3770s
+Epoch 154: Loss 2252192.0, time 68.3373s
+Epoch 155: Loss 2287771.5, time 68.3449s
+Epoch 156: Loss 2291992.75, time 68.2422s
+Epoch 157: Loss 2260245.5, time 68.3384s
+Epoch 158: Loss 2239788.5, time 68.3366s
+Epoch 159: Loss 2230690.25, time 68.2421s
+Epoch 160: Loss 2233083.0, time 68.2991s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_160.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 161: Loss 2229479.75, time 68.2045s
+Epoch 162: Loss 2206442.0, time 68.0846s
+Epoch 163: Loss 2210858.25, time 68.2913s
+Epoch 164: Loss 2191675.0, time 68.7099s
+Epoch 165: Loss 2181361.75, time 68.4796s
+Epoch 166: Loss 2170349.0, time 68.3793s
+Epoch 167: Loss 2167906.25, time 68.3580s
+Epoch 168: Loss 2147380.5, time 68.3675s
+Epoch 169: Loss 2140459.5, time 68.3292s
+Epoch 170: Loss 2123174.75, time 68.3906s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_170.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 171: Loss 2160835.5, time 68.4633s
+Epoch 172: Loss 2113965.5, time 68.4244s
+Epoch 173: Loss 2067972.25, time 68.3070s
+Epoch 174: Loss 2114997.25, time 68.4122s
+Epoch 175: Loss 2111279.0, time 68.4971s
+Epoch 176: Loss 2098704.25, time 68.4542s
+Epoch 177: Loss 2072786.375, time 68.3971s
+Epoch 178: Loss 2084775.75, time 68.2979s
+Epoch 179: Loss 2039430.25, time 68.3426s
+Epoch 180: Loss 2258760.25, time 68.3485s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_180.pkl
+Epoch 181: Loss 2105704.0, time 68.3452s
+Epoch 182: Loss 2040324.25, time 68.4067s
+Epoch 183: Loss 2038733.5, time 68.4118s
+Epoch 184: Loss 2023303.875, time 68.4035s
+Epoch 185: Loss 1997733.0, time 68.3057s
+Epoch 186: Loss 2003194.375, time 68.4397s
+Epoch 187: Loss 2009988.625, time 68.2589s
+Epoch 188: Loss 1965458.625, time 68.3900s
+Epoch 189: Loss 1993656.5, time 68.4425s
+Epoch 190: Loss 1988816.5, time 68.4567s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_190.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 191: Loss 1972538.875, time 68.4062s
+Epoch 192: Loss 1962090.125, time 68.4283s
+Epoch 193: Loss 1976987.5, time 68.3723s
+Epoch 194: Loss 1917104.75, time 68.3487s
+Epoch 195: Loss 1961323.0, time 68.4095s
+Epoch 196: Loss 1944762.125, time 68.3584s
+Epoch 197: Loss 1940290.375, time 68.2823s
+Epoch 198: Loss 1945138.5, time 68.2686s
+Epoch 199: Loss 1929745.25, time 68.3372s
+Epoch 200: Loss 1901051.875, time 68.2435s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_200.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 201: Loss 1906469.5, time 68.2498s
+Epoch 202: Loss 1914047.125, time 68.2071s
+Epoch 203: Loss 1889976.375, time 68.2595s
+Epoch 204: Loss 1886159.75, time 68.3668s
+Epoch 205: Loss 1877018.375, time 68.7755s
+Epoch 206: Loss 1886517.25, time 68.8399s
+Epoch 207: Loss 1880555.5, time 68.7809s
+Epoch 208: Loss 1866616.0, time 68.5514s
+Epoch 209: Loss 1865359.875, time 68.5150s
+Epoch 210: Loss 1851082.625, time 68.4477s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_210.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 211: Loss 1841710.75, time 68.5633s
+Epoch 212: Loss 1845338.125, time 68.4167s
+Epoch 213: Loss 1848866.25, time 68.4349s
+Epoch 214: Loss 1843522.5, time 68.2754s
+Epoch 215: Loss 1850657.75, time 68.3863s
+Epoch 216: Loss 1814750.5, time 68.4104s
+Epoch 217: Loss 1821872.375, time 68.3169s
+Epoch 218: Loss 1809304.375, time 68.2003s
+Epoch 219: Loss 1816433.375, time 68.3737s
+Epoch 220: Loss 1783211.375, time 68.4746s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_220.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 221: Loss 1826965.875, time 68.5493s
+Epoch 222: Loss 1787728.875, time 68.5785s
+Epoch 223: Loss 1805388.75, time 68.3221s
+Epoch 224: Loss 1792138.875, time 68.3534s
+Epoch 225: Loss 1785412.875, time 68.9090s
+Epoch 226: Loss 1795518.875, time 68.6719s
+Epoch 227: Loss 1788198.875, time 68.6870s
+Epoch 228: Loss 1787580.875, time 68.2712s
+Epoch 229: Loss 1777595.5, time 68.1460s
+Epoch 230: Loss 1773901.0, time 68.2075s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_230.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 231: Loss 1751691.75, time 68.2498s
+Epoch 232: Loss 1768336.125, time 68.3070s
+Epoch 233: Loss 1743872.5, time 68.1468s
+Epoch 234: Loss 1755746.0, time 68.3021s
+Epoch 235: Loss 1749594.0, time 68.2037s
+Epoch 236: Loss 1764402.0, time 68.2260s
+Epoch 237: Loss 1741828.25, time 68.2170s
+Epoch 238: Loss 1730311.25, time 68.2075s
+Epoch 239: Loss 1741908.5, time 68.1636s
+Epoch 240: Loss 1736466.75, time 68.4610s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_240.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 241: Loss 1711180.625, time 68.6506s
+Epoch 242: Loss 1718795.375, time 68.4165s
+Epoch 243: Loss 1700658.5, time 68.4797s
+Epoch 244: Loss 1729460.625, time 68.3716s
+Epoch 245: Loss 1702712.375, time 68.3218s
+Epoch 246: Loss 1740511.0, time 68.3606s
+Epoch 247: Loss 1700807.625, time 68.2841s
+Epoch 248: Loss 1698304.875, time 68.2044s
+Epoch 249: Loss 1670112.75, time 68.2347s
+Epoch 250: Loss 1690647.25, time 68.2962s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_250.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 251: Loss 1661288.625, time 68.3313s
+Epoch 252: Loss 1692781.875, time 68.3713s
+Epoch 253: Loss 1681775.25, time 68.3350s
+Epoch 254: Loss 1691964.125, time 68.1961s
+Epoch 255: Loss 1678520.125, time 68.2143s
+Epoch 256: Loss 1692823.5, time 68.3305s
+Epoch 257: Loss 1680027.875, time 68.2420s
+Epoch 258: Loss 1664032.0, time 68.2614s
+Epoch 259: Loss 1666527.125, time 68.3408s
+Epoch 260: Loss 1677901.5, time 68.3349s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_260.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 261: Loss 1684830.5, time 68.3513s
+Epoch 262: Loss 1646427.375, time 68.2600s
+Epoch 263: Loss 1673344.5, time 68.3043s
+Epoch 264: Loss 1667312.875, time 68.3907s
+Epoch 265: Loss 1657705.875, time 68.2721s
+Epoch 266: Loss 1646597.875, time 68.3209s
+Epoch 267: Loss 1642200.0, time 68.2548s
+Epoch 268: Loss 1640076.0, time 68.3008s
+Epoch 269: Loss 1656356.25, time 68.0968s
+Epoch 270: Loss 1633994.0, time 68.2136s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_270.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 271: Loss 1653568.125, time 68.3068s
+Epoch 272: Loss 1641709.0, time 68.1439s
+Epoch 273: Loss 1625395.25, time 68.2408s
+Epoch 274: Loss 1621763.875, time 68.2871s
+Epoch 275: Loss 1633852.0, time 68.1854s
+Epoch 276: Loss 1625941.375, time 68.2774s
+Epoch 277: Loss 1633434.625, time 68.3653s
+Epoch 278: Loss 1616065.625, time 68.4164s
+Epoch 279: Loss 1634561.875, time 68.3763s
+Epoch 280: Loss 1595314.75, time 68.5728s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_280.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 281: Loss 1618713.375, time 68.5553s
+Epoch 282: Loss 1608259.0, time 68.4735s
+Epoch 283: Loss 1592534.125, time 68.5204s
+Epoch 284: Loss 1614443.0, time 68.4632s
+Epoch 285: Loss 1593466.75, time 68.4740s
+Epoch 286: Loss 1604114.125, time 68.4513s
+Epoch 287: Loss 1620531.375, time 68.4500s
+Epoch 288: Loss 1585122.75, time 68.3928s
+Epoch 289: Loss 1580293.625, time 68.5369s
+Epoch 290: Loss 1609472.75, time 68.5000s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_290.pkl
+Epoch 291: Loss 1606040.875, time 68.5388s
+Epoch 292: Loss 1589416.5, time 68.6215s
+Epoch 293: Loss 1592546.5, time 68.5096s
+Epoch 294: Loss 1596097.5, time 68.5296s
+Epoch 295: Loss 1587319.625, time 68.5421s
+Epoch 296: Loss 1592205.75, time 68.6508s
+Epoch 297: Loss 1555723.125, time 68.4914s
+Epoch 298: Loss 1568789.5, time 68.4805s
+Epoch 299: Loss 1564337.75, time 68.5194s
+Epoch 300: Loss 1577051.75, time 68.5274s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_300.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 301: Loss 1567487.25, time 68.6288s
+Epoch 302: Loss 1576937.0, time 68.4424s
+Epoch 303: Loss 1566999.0, time 68.4592s
+Epoch 304: Loss 1556321.0, time 68.5159s
+Epoch 305: Loss 1563251.875, time 68.4724s
+Epoch 306: Loss 1568959.375, time 68.6397s
+Epoch 307: Loss 1563200.75, time 68.6026s
+Epoch 308: Loss 1553543.25, time 68.5391s
+Epoch 309: Loss 1564808.375, time 68.6197s
+Epoch 310: Loss 1547555.625, time 68.8126s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_310.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 311: Loss 1542621.375, time 68.8619s
+Epoch 312: Loss 1533569.125, time 68.8146s
+Epoch 313: Loss 1565146.25, time 68.9907s
+Epoch 314: Loss 1559636.0, time 69.0214s
+Epoch 315: Loss 1536779.375, time 68.9234s
+Epoch 316: Loss 1544429.625, time 69.1109s
+Epoch 317: Loss 1535956.375, time 69.1376s
+Epoch 318: Loss 1552148.25, time 69.0801s
+Epoch 319: Loss 1539987.0, time 68.9654s
+Epoch 320: Loss 1554772.25, time 69.0180s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_320.pkl
+Epoch 321: Loss 1542121.5, time 68.9438s
+Epoch 322: Loss 1546443.375, time 69.1881s
+Epoch 323: Loss 1515659.375, time 68.9627s
+Epoch 324: Loss 1553821.0, time 68.9880s
+Epoch 325: Loss 1543273.25, time 68.9227s
+Epoch 326: Loss 1508426.75, time 68.8662s
+Epoch 327: Loss 1518809.375, time 69.1021s
+Epoch 328: Loss 1520210.0, time 68.9770s
+Epoch 329: Loss 1515786.75, time 68.7404s
+Epoch 330: Loss 1516570.75, time 68.9157s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_330.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 331: Loss 1540336.875, time 69.4418s
+Epoch 332: Loss 1504880.625, time 68.8726s
+Epoch 333: Loss 1543596.5, time 68.6874s
+Epoch 334: Loss 1500033.375, time 68.8416s
+Epoch 335: Loss 1506176.875, time 68.8556s
+Epoch 336: Loss 1499396.0, time 68.7589s
+Epoch 337: Loss 1519917.5, time 68.7287s
+Epoch 338: Loss 1518416.125, time 68.7291s
+Epoch 339: Loss 1488530.625, time 68.8188s
+Epoch 340: Loss 1499866.625, time 68.6011s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_340.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 341: Loss 1489971.125, time 68.2672s
+Epoch 342: Loss 1511426.0, time 68.3058s
+Epoch 343: Loss 1498194.5, time 68.2695s
+Epoch 344: Loss 1504288.25, time 68.1856s
+Epoch 345: Loss 1491677.75, time 68.2737s
+Epoch 346: Loss 1483399.875, time 68.2496s
+Epoch 347: Loss 1491003.125, time 68.2566s
+Epoch 348: Loss 1488778.75, time 68.2826s
+Epoch 349: Loss 1490052.875, time 68.1999s
+Epoch 350: Loss 1485782.375, time 68.2296s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_350.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 351: Loss 1485303.75, time 68.2622s
+Epoch 352: Loss 1499447.375, time 68.0833s
+Epoch 353: Loss 1481945.375, time 68.0994s
+Epoch 354: Loss 1489340.0, time 68.0311s
+Epoch 355: Loss 1480221.125, time 68.1062s
+Epoch 356: Loss 1485606.125, time 68.1090s
+Epoch 357: Loss 1481080.5, time 68.2025s
+Epoch 358: Loss 1469803.375, time 68.1302s
+Epoch 359: Loss 1479442.875, time 67.9957s
+Epoch 360: Loss 1473801.25, time 68.0009s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_360.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 361: Loss 1465333.25, time 68.1202s
+Epoch 362: Loss 1471531.125, time 68.0763s
+Epoch 363: Loss 1465339.0, time 68.1629s
+Epoch 364: Loss 1472868.25, time 68.2734s
+Epoch 365: Loss 1475987.625, time 68.2893s
+Epoch 366: Loss 1460293.375, time 68.3532s
+Epoch 367: Loss 1476585.375, time 68.6291s
+Epoch 368: Loss 1460577.25, time 68.6890s
+Epoch 369: Loss 1469316.25, time 68.7303s
+Epoch 370: Loss 1460430.875, time 68.6693s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_370.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 371: Loss 1455430.125, time 68.6231s
+Epoch 372: Loss 1464666.125, time 68.6979s
+Epoch 373: Loss 1461865.25, time 68.5670s
+Epoch 374: Loss 1457242.625, time 68.6369s
+Epoch 375: Loss 1444891.125, time 68.6083s
+Epoch 376: Loss 1454089.0, time 68.5532s
+Epoch 377: Loss 1454433.5, time 68.5376s
+Epoch 378: Loss 1453501.0, time 68.7925s
+Epoch 379: Loss 1442180.625, time 68.6400s
+Epoch 380: Loss 1441883.25, time 68.7234s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_380.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 381: Loss 1457127.5, time 68.7025s
+Epoch 382: Loss 1441869.25, time 68.8434s
+Epoch 383: Loss 1457397.375, time 68.7728s
+Epoch 384: Loss 1442953.25, time 68.6579s
+Epoch 385: Loss 1432906.5, time 68.7200s
+Epoch 386: Loss 1440464.875, time 68.7125s
+Epoch 387: Loss 1444017.0, time 68.6991s
+Epoch 388: Loss 1433178.5, time 68.6405s
+Epoch 389: Loss 1438260.125, time 68.7830s
+Epoch 390: Loss 1443917.5, time 68.7018s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_390.pkl
+Epoch 391: Loss 1436182.625, time 68.6943s
+Epoch 392: Loss 1428550.125, time 68.6835s
+Epoch 393: Loss 1435774.0, time 68.7839s
+Epoch 394: Loss 1418655.625, time 68.6787s
+Epoch 395: Loss 1422336.75, time 68.5114s
+Epoch 396: Loss 1430929.0, time 68.5653s
+Epoch 397: Loss 1432934.875, time 68.6438s
+Epoch 398: Loss 1415330.0, time 68.6048s
+Epoch 399: Loss 1421504.0, time 68.5997s
+Epoch 400: Loss 1422274.125, time 68.5747s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_400.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 401: Loss 1426165.75, time 68.7064s
+Epoch 402: Loss 1415293.0, time 68.7581s
+Epoch 403: Loss 1417490.375, time 68.6734s
+Epoch 404: Loss 1414951.375, time 68.6576s
+Epoch 405: Loss 1424244.125, time 68.7102s
+Epoch 406: Loss 1421091.125, time 68.8630s
+Epoch 407: Loss 1422227.875, time 69.0186s
+Epoch 408: Loss 1412630.125, time 69.0162s
+Epoch 409: Loss 1407269.25, time 69.0921s
+Epoch 410: Loss 1425291.125, time 69.0251s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_410.pkl
+Epoch 411: Loss 1403873.75, time 68.8550s
+Epoch 412: Loss 1398452.375, time 68.8377s
+Epoch 413: Loss 1407899.875, time 68.7885s
+Epoch 414: Loss 1403854.375, time 68.6165s
+Epoch 415: Loss 1416624.0, time 68.3300s
+Epoch 416: Loss 1403952.5, time 68.2520s
+Epoch 417: Loss 1407544.375, time 68.4908s
+Epoch 418: Loss 1397632.25, time 68.2463s
+Epoch 419: Loss 1398861.75, time 68.1577s
+Epoch 420: Loss 1400769.125, time 68.2006s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_420.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 421: Loss 1405301.5, time 68.2868s
+Epoch 422: Loss 1399274.625, time 68.3409s
+Epoch 423: Loss 1403534.0, time 68.2413s
+Epoch 424: Loss 1401945.375, time 68.2709s
+Epoch 425: Loss 1402538.125, time 68.2276s
+Epoch 426: Loss 1398852.25, time 68.1266s
+Epoch 427: Loss 1395557.625, time 68.1878s
+Epoch 428: Loss 1408319.125, time 68.3789s
+Epoch 429: Loss 1395215.125, time 68.5165s
+Epoch 430: Loss 1406029.25, time 68.6238s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_430.pkl
+Epoch 431: Loss 1401292.75, time 68.7317s
+Epoch 432: Loss 1392247.375, time 68.6279s
+Epoch 433: Loss 1385454.5, time 68.5398s
+Epoch 434: Loss 1388356.125, time 68.5441s
+Epoch 435: Loss 1395184.0, time 68.5379s
+Epoch 436: Loss 1383960.0, time 68.6651s
+Epoch 437: Loss 1373633.625, time 68.6357s
+Epoch 438: Loss 1384267.375, time 68.6213s
+Epoch 439: Loss 1378104.375, time 68.6764s
+Epoch 440: Loss 1386068.5, time 68.6264s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_440.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 441: Loss 1384616.75, time 68.6517s
+Epoch 442: Loss 1375170.625, time 68.7773s
+Epoch 443: Loss 1386154.375, time 68.8616s
+Epoch 444: Loss 1393783.125, time 68.7679s
+Epoch 445: Loss 1380221.375, time 68.9508s
+Epoch 446: Loss 1378945.125, time 68.7456s
+Epoch 447: Loss 1375427.0, time 68.8504s
+Epoch 448: Loss 1373064.125, time 68.7546s
+Epoch 449: Loss 1370771.375, time 68.8816s
+Epoch 450: Loss 1371937.875, time 68.8088s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_450.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 451: Loss 1368011.25, time 68.7946s
+Epoch 452: Loss 1373587.125, time 68.8059s
+Epoch 453: Loss 1367370.5, time 68.9489s
+Epoch 454: Loss 1379379.0, time 68.8232s
+Epoch 455: Loss 1369548.75, time 68.7391s
+Epoch 456: Loss 1378918.375, time 68.8566s
+Epoch 457: Loss 1369813.625, time 68.7582s
+Epoch 458: Loss 1371808.375, time 68.9099s
+Epoch 459: Loss 1358328.375, time 68.9703s
+Epoch 460: Loss 1370663.625, time 68.9369s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_460.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 461: Loss 1366751.5, time 68.9366s
+Epoch 462: Loss 1365329.5, time 69.0690s
+Epoch 463: Loss 1360402.125, time 68.9376s
+Epoch 464: Loss 1352872.375, time 68.9237s
+Epoch 465: Loss 1357842.375, time 68.8538s
+Epoch 466: Loss 1352732.75, time 68.9512s
+Epoch 467: Loss 1374027.875, time 69.0126s
+Epoch 468: Loss 1357344.125, time 69.0175s
+Epoch 469: Loss 1363364.75, time 68.9712s
+Epoch 470: Loss 1353244.625, time 69.0223s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_470.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 471: Loss 1360869.25, time 69.0972s
+Epoch 472: Loss 1356685.625, time 69.0263s
+Epoch 473: Loss 1345167.875, time 69.1546s
+Epoch 474: Loss 1359970.875, time 69.0515s
+Epoch 475: Loss 1348906.25, time 69.0218s
+Epoch 476: Loss 1346815.125, time 68.9803s
+Epoch 477: Loss 1355021.75, time 68.8629s
+Epoch 478: Loss 1351359.5, time 68.9162s
+Epoch 479: Loss 1341949.125, time 69.1130s
+Epoch 480: Loss 1331878.625, time 68.9402s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_480.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 481: Loss 1361889.5, time 68.9277s
+Epoch 482: Loss 1341021.375, time 68.9106s
+Epoch 483: Loss 1349003.25, time 68.9976s
+Epoch 484: Loss 1341759.75, time 68.9468s
+Epoch 485: Loss 1340706.25, time 68.8665s
+Epoch 486: Loss 1346177.875, time 68.9388s
+Epoch 487: Loss 1334928.625, time 68.8916s
+Epoch 488: Loss 1350689.0, time 69.0085s
+Epoch 489: Loss 1321894.625, time 69.0394s
+Epoch 490: Loss 1327392.125, time 69.0072s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_490.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 491: Loss 1340251.25, time 68.9225s
+Epoch 492: Loss 1335439.375, time 68.7913s
+Epoch 493: Loss 1329631.625, time 68.9312s
+Epoch 494: Loss 1339423.125, time 69.0569s
+Epoch 495: Loss 1331759.875, time 68.9872s
+Epoch 496: Loss 1333024.875, time 68.8973s
+Epoch 497: Loss 1335779.375, time 69.0833s
+Epoch 498: Loss 1333103.0, time 68.9030s
+Epoch 499: Loss 1330290.0, time 68.9392s
+Epoch 500: Loss 1324806.375, time 68.9545s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_500.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 501: Loss 1313706.75, time 68.9913s
+Epoch 502: Loss 1343557.0, time 68.9677s
+Epoch 503: Loss 1323051.5, time 68.8609s
+Epoch 504: Loss 1328664.25, time 68.9856s
+Epoch 505: Loss 1321328.125, time 69.0399s
+Epoch 506: Loss 1330805.5, time 69.0518s
+Epoch 507: Loss 1333453.0, time 68.9260s
+Epoch 508: Loss 1317580.125, time 68.9629s
+Epoch 509: Loss 1320796.625, time 68.9983s
+Epoch 510: Loss 1320928.375, time 68.8560s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_510.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 511: Loss 1314548.875, time 68.9787s
+Epoch 512: Loss 1316935.5, time 68.9227s
+Epoch 513: Loss 1319193.75, time 68.9487s
+Epoch 514: Loss 1315314.5, time 69.0332s
+Epoch 515: Loss 1316650.375, time 68.8042s
+Epoch 516: Loss 1320896.875, time 68.6623s
+Epoch 517: Loss 1316562.375, time 68.6306s
+Epoch 518: Loss 1310438.875, time 68.6967s
+Epoch 519: Loss 1320996.125, time 68.6434s
+Epoch 520: Loss 1323449.625, time 68.6289s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_520.pkl
+Epoch 521: Loss 1309109.25, time 68.6360s
+Epoch 522: Loss 1317876.375, time 68.6654s
+Epoch 523: Loss 1318264.75, time 68.6549s
+Epoch 524: Loss 1311475.625, time 68.5569s
+Epoch 525: Loss 1323294.75, time 68.6148s
+Epoch 526: Loss 1311879.625, time 68.8173s
+Epoch 527: Loss 1304623.875, time 68.6500s
+Epoch 528: Loss 1308854.25, time 68.7576s
+Epoch 529: Loss 1300556.125, time 68.7359s
+Epoch 530: Loss 1309307.75, time 68.6421s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_530.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 531: Loss 1310440.25, time 68.7082s
+Epoch 532: Loss 1294540.75, time 68.7741s
+Epoch 533: Loss 1311518.0, time 68.7989s
+Epoch 534: Loss 1303159.125, time 68.6890s
+Epoch 535: Loss 1291323.625, time 68.6704s
+Epoch 536: Loss 1300190.75, time 68.7558s
+Epoch 537: Loss 1305227.625, time 68.6608s
+Epoch 538: Loss 1302528.875, time 68.6647s
+Epoch 539: Loss 1295407.0, time 68.6820s
+Epoch 540: Loss 1295288.375, time 68.6411s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_540.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 541: Loss 1297415.5, time 68.7657s
+Epoch 542: Loss 1294708.5, time 68.5937s
+Epoch 543: Loss 1304844.625, time 68.6364s
+Epoch 544: Loss 1287146.125, time 68.6569s
+Epoch 545: Loss 1302370.25, time 68.5930s
+Epoch 546: Loss 1296037.625, time 68.6426s
+Epoch 547: Loss 1287867.25, time 68.6936s
+Epoch 548: Loss 1309137.75, time 68.7018s
+Epoch 549: Loss 1296192.75, time 68.6983s
+Epoch 550: Loss 1294712.5, time 68.6542s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_550.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 551: Loss 1295236.125, time 68.6125s
+Epoch 552: Loss 1286023.25, time 68.6299s
+Epoch 553: Loss 1291727.625, time 68.7018s
+Epoch 554: Loss 1289236.5, time 68.7029s
+Epoch 555: Loss 1291801.625, time 68.8306s
+Epoch 556: Loss 1289299.5, time 68.6192s
+Epoch 557: Loss 1292161.625, time 68.5497s
+Epoch 558: Loss 1294841.25, time 68.6548s
+Epoch 559: Loss 1275861.0, time 68.6020s
+Epoch 560: Loss 1287025.625, time 68.5692s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_560.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 561: Loss 1281805.0, time 68.5952s
+Epoch 562: Loss 1288251.75, time 68.5847s
+Epoch 563: Loss 1283063.0, time 68.5761s
+Epoch 564: Loss 1280148.375, time 68.5670s
+Epoch 565: Loss 1276511.5, time 68.5913s
+Epoch 566: Loss 1274762.25, time 68.6504s
+Epoch 567: Loss 1274802.5, time 68.7409s
+Epoch 568: Loss 1287108.125, time 68.5596s
+Epoch 569: Loss 1269815.5, time 68.6008s
+Epoch 570: Loss 1281314.5, time 68.5674s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_570.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 571: Loss 1276507.625, time 68.6204s
+Epoch 572: Loss 1284631.0, time 68.5415s
+Epoch 573: Loss 1268571.5, time 68.6172s
+Epoch 574: Loss 1290101.625, time 68.5886s
+Epoch 575: Loss 1271809.0, time 68.7593s
+Epoch 576: Loss 1273876.25, time 68.7402s
+Epoch 577: Loss 1277636.625, time 68.6768s
+Epoch 578: Loss 1279715.625, time 68.6510s
+Epoch 579: Loss 1272118.875, time 68.7521s
+Epoch 580: Loss 1285184.25, time 68.2436s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_580.pkl
+Epoch 581: Loss 1275473.5, time 68.2079s
+Epoch 582: Loss 1272636.125, time 68.1688s
+Epoch 583: Loss 1275227.875, time 68.1878s
+Epoch 584: Loss 1263093.625, time 68.2157s
+Epoch 585: Loss 1266236.75, time 68.1733s
+Epoch 586: Loss 1261196.75, time 68.0648s
+Epoch 587: Loss 1268508.375, time 68.7442s
+Epoch 588: Loss 1274375.625, time 68.2169s
+Epoch 589: Loss 1269954.75, time 68.3329s
+Epoch 590: Loss 1261688.125, time 68.1923s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_590.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 591: Loss 1270894.5, time 68.2749s
+Epoch 592: Loss 1267681.0, time 68.4620s
+Epoch 593: Loss 1263058.0, time 68.6879s
+Epoch 594: Loss 1262852.75, time 68.3503s
+Epoch 595: Loss 1250620.125, time 68.2989s
+Epoch 596: Loss 1262087.625, time 68.3246s
+Epoch 597: Loss 1266240.0, time 68.3542s
+Epoch 598: Loss 1263070.125, time 68.3533s
+Epoch 599: Loss 1264602.5, time 68.4472s
+Epoch 600: Loss 1264719.75, time 68.3715s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_600.pkl
+Epoch 601: Loss 1264739.0, time 68.3504s
+Epoch 602: Loss 1255340.625, time 68.4543s
+Epoch 603: Loss 1257175.5, time 68.3832s
+Epoch 604: Loss 1249419.625, time 68.4918s
+Epoch 605: Loss 1261086.75, time 68.4399s
+Epoch 606: Loss 1253555.0, time 68.3678s
+Epoch 607: Loss 1248860.25, time 68.4637s
+Epoch 608: Loss 1263083.375, time 68.4646s
+Epoch 609: Loss 1259658.625, time 68.4598s
+Epoch 610: Loss 1238441.5, time 68.3972s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_610.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 611: Loss 1251734.875, time 68.5440s
+Epoch 612: Loss 1262854.875, time 68.4792s
+Epoch 613: Loss 1257214.125, time 68.4583s
+Epoch 614: Loss 1242333.375, time 68.3975s
+Epoch 615: Loss 1255725.25, time 68.5367s
+Epoch 616: Loss 1250230.75, time 68.8197s
+Epoch 617: Loss 1253194.0, time 68.4930s
+Epoch 618: Loss 1244054.875, time 68.5913s
+Epoch 619: Loss 1255259.75, time 68.5459s
+Epoch 620: Loss 1241370.375, time 68.8509s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_620.pkl
+Epoch 621: Loss 1246004.875, time 68.5487s
+Epoch 622: Loss 1246186.875, time 68.5175s
+Epoch 623: Loss 1240729.875, time 68.5084s
+Epoch 624: Loss 1245234.375, time 68.5328s
+Epoch 625: Loss 1246149.75, time 68.4466s
+Epoch 626: Loss 1254798.0, time 68.4772s
+Epoch 627: Loss 1237214.0, time 68.4497s
+Epoch 628: Loss 1240548.125, time 68.4932s
+Epoch 629: Loss 1248605.125, time 68.5845s
+Epoch 630: Loss 1239476.625, time 68.5007s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_630.pkl
+Epoch 631: Loss 1240830.875, time 68.5351s
+Epoch 632: Loss 1239223.375, time 68.4620s
+Epoch 633: Loss 1236710.625, time 68.7193s
+Epoch 634: Loss 1243644.5, time 68.6586s
+Epoch 635: Loss 1242474.25, time 68.5107s
+Epoch 636: Loss 1239265.75, time 68.5175s
+Epoch 637: Loss 1236598.75, time 68.4949s
+Epoch 638: Loss 1238965.375, time 68.6029s
+Epoch 639: Loss 1238761.0, time 68.5290s
+Epoch 640: Loss 1232741.125, time 68.5364s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_640.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 641: Loss 1241205.125, time 68.5390s
+Epoch 642: Loss 1231452.375, time 68.5489s
+Epoch 643: Loss 1233894.875, time 68.5709s
+Epoch 644: Loss 1245011.625, time 68.6708s
+Epoch 645: Loss 1231052.375, time 68.4811s
+Epoch 646: Loss 1230001.25, time 68.6394s
+Epoch 647: Loss 1235587.25, time 68.5525s
+Epoch 648: Loss 1235636.0, time 68.5601s
+Epoch 649: Loss 1228377.375, time 68.7530s
+Epoch 650: Loss 1223414.0, time 68.6161s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_650.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 651: Loss 1231101.625, time 68.6181s
+Epoch 652: Loss 1232292.5, time 68.5428s
+Epoch 653: Loss 1226568.375, time 68.5731s
+Epoch 654: Loss 1229842.625, time 68.6274s
+Epoch 655: Loss 1235775.75, time 68.7719s
+Epoch 656: Loss 1233483.875, time 68.6305s
+Epoch 657: Loss 1230303.25, time 68.7473s
+Epoch 658: Loss 1227460.375, time 68.6694s
+Epoch 659: Loss 1226776.25, time 68.7077s
+Epoch 660: Loss 1223463.75, time 68.5412s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_660.pkl
+Epoch 661: Loss 1227978.5, time 68.6150s
+Epoch 662: Loss 1222230.125, time 68.5526s
+Epoch 663: Loss 1228938.25, time 68.6425s
+Epoch 664: Loss 1221552.875, time 68.6339s
+Epoch 665: Loss 1218229.375, time 68.5582s
+Epoch 666: Loss 1219514.375, time 68.4864s
+Epoch 667: Loss 1223990.25, time 68.5761s
+Epoch 668: Loss 1217011.875, time 68.5492s
+Epoch 669: Loss 1222984.625, time 68.5183s
+Epoch 670: Loss 1223799.375, time 68.4993s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_670.pkl
+Epoch 671: Loss 1224810.5, time 68.4456s
+Epoch 672: Loss 1223316.375, time 68.6360s
+Epoch 673: Loss 1213639.5, time 68.5299s
+Epoch 674: Loss 1213966.0, time 68.4754s
+Epoch 675: Loss 1212251.0, time 68.5502s
+Epoch 676: Loss 1219987.125, time 68.6897s
+Epoch 677: Loss 1222788.625, time 68.5662s
+Epoch 678: Loss 1209568.375, time 68.4707s
+Epoch 679: Loss 1218566.5, time 68.5445s
+Epoch 680: Loss 1226745.0, time 68.7767s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_680.pkl
+Epoch 681: Loss 1212498.625, time 68.5594s
+Epoch 682: Loss 1213540.5, time 68.6627s
+Epoch 683: Loss 1216958.375, time 68.5177s
+Epoch 684: Loss 1215685.125, time 68.5732s
+Epoch 685: Loss 1209251.125, time 68.4572s
+Epoch 686: Loss 1209939.5, time 68.4762s
+Epoch 687: Loss 1211513.25, time 68.4472s
+Epoch 688: Loss 1207271.5, time 68.5540s
+Epoch 689: Loss 1211665.875, time 68.4498s
+Epoch 690: Loss 1203924.25, time 68.4409s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_690.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 691: Loss 1216479.625, time 68.3648s
+Epoch 692: Loss 1204791.375, time 68.5018s
+Epoch 693: Loss 1200629.0, time 68.6707s
+Epoch 694: Loss 1210362.625, time 68.5533s
+Epoch 695: Loss 1206836.125, time 68.5437s
+Epoch 696: Loss 1203919.0, time 68.5444s
+Epoch 697: Loss 1210804.625, time 68.4634s
+Epoch 698: Loss 1206677.375, time 68.3753s
+Epoch 699: Loss 1205910.375, time 68.3840s
+Epoch 700: Loss 1203286.125, time 68.3151s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_700.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 701: Loss 1202052.875, time 68.3981s
+Epoch 702: Loss 1205908.625, time 68.4917s
+Epoch 703: Loss 1205514.5, time 68.6349s
+Epoch 704: Loss 1209870.0, time 68.4898s
+Epoch 705: Loss 1203609.625, time 68.3921s
+Epoch 706: Loss 1199469.625, time 68.3465s
+Epoch 707: Loss 1197780.875, time 68.3975s
+Epoch 708: Loss 1203294.75, time 68.3662s
+Epoch 709: Loss 1201938.75, time 68.3943s
+Epoch 710: Loss 1199083.375, time 68.3786s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_710.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 711: Loss 1192653.875, time 68.5645s
+Epoch 712: Loss 1198973.625, time 68.5035s
+Epoch 713: Loss 1212211.625, time 68.4192s
+Epoch 714: Loss 1189920.125, time 68.4124s
+Epoch 715: Loss 1188759.875, time 68.3379s
+Epoch 716: Loss 1197252.875, time 68.4563s
+Epoch 717: Loss 1201698.625, time 68.3694s
+Epoch 718: Loss 1192547.125, time 68.3896s
+Epoch 719: Loss 1195032.875, time 68.3741s
+Epoch 720: Loss 1197613.75, time 68.3444s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_720.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 721: Loss 1196434.0, time 68.2215s
+Epoch 722: Loss 1191364.125, time 68.3747s
+Epoch 723: Loss 1197196.75, time 68.2210s
+Epoch 724: Loss 1191882.25, time 68.2710s
+Epoch 725: Loss 1202020.25, time 68.3950s
+Epoch 726: Loss 1199231.375, time 68.2972s
+Epoch 727: Loss 1200101.0, time 68.3968s
+Epoch 728: Loss 1191011.125, time 68.2946s
+Epoch 729: Loss 1201665.0, time 68.3752s
+Epoch 730: Loss 1185759.125, time 68.3794s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_730.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 731: Loss 1195324.25, time 68.3400s
+Epoch 732: Loss 1188558.375, time 68.4491s
+Epoch 733: Loss 1183573.375, time 68.7231s
+Epoch 734: Loss 1189282.75, time 68.6030s
+Epoch 735: Loss 1191281.5, time 68.3475s
+Epoch 736: Loss 1188332.5, time 68.4651s
+Epoch 737: Loss 1196735.125, time 68.3800s
+Epoch 738: Loss 1184293.875, time 68.4155s
+Epoch 739: Loss 1181541.5, time 68.3731s
+Epoch 740: Loss 1193696.375, time 68.3802s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_740.pkl
+Epoch 741: Loss 1190256.625, time 68.3954s
+Epoch 742: Loss 1190286.0, time 68.4962s
+Epoch 743: Loss 1187046.0, time 68.5009s
+Epoch 744: Loss 1182896.125, time 68.3249s
+Epoch 745: Loss 1191000.875, time 68.2348s
+Epoch 746: Loss 1182348.75, time 68.3352s
+Epoch 747: Loss 1187801.0, time 68.3631s
+Epoch 748: Loss 1176809.625, time 68.7714s
+Epoch 749: Loss 1182262.5, time 68.5133s
+Epoch 750: Loss 1189163.5, time 68.3330s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_750.pkl
+Epoch 751: Loss 1187511.625, time 68.4281s
+Epoch 752: Loss 1183930.125, time 68.4275s
+Epoch 753: Loss 1177939.75, time 68.4744s
+Epoch 754: Loss 1179426.0, time 68.4421s
+Epoch 755: Loss 1183846.125, time 68.4736s
+Epoch 756: Loss 1182709.875, time 68.4688s
+Epoch 757: Loss 1186393.625, time 68.5893s
+Epoch 758: Loss 1178839.5, time 68.7733s
+Epoch 759: Loss 1185641.25, time 68.5805s
+Epoch 760: Loss 1178479.5, time 68.6413s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_760.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 761: Loss 1185891.125, time 68.6438s
+Epoch 762: Loss 1175564.75, time 68.7296s
+Epoch 763: Loss 1172310.5, time 68.7878s
+Epoch 764: Loss 1169696.625, time 68.6404s
+Epoch 765: Loss 1179262.875, time 68.7250s
+Epoch 766: Loss 1176283.875, time 68.7179s
+Epoch 767: Loss 1177521.375, time 68.6468s
+Epoch 768: Loss 1186270.75, time 68.6842s
+Epoch 769: Loss 1174991.625, time 68.7823s
+Epoch 770: Loss 1178600.0, time 68.7295s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_770.pkl
+Epoch 771: Loss 1182072.375, time 68.7284s
+Epoch 772: Loss 1184264.0, time 68.6623s
+Epoch 773: Loss 1161683.5, time 68.6516s
+Epoch 774: Loss 1174094.625, time 68.6310s
+Epoch 775: Loss 1172926.125, time 68.7782s
+Epoch 776: Loss 1170197.0, time 68.8021s
+Epoch 777: Loss 1174386.25, time 68.6808s
+Epoch 778: Loss 1176863.0, time 68.7597s
+Epoch 779: Loss 1171782.75, time 68.6877s
+Epoch 780: Loss 1170425.75, time 68.5907s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_780.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 781: Loss 1172625.25, time 68.5591s
+Epoch 782: Loss 1171062.875, time 68.4844s
+Epoch 783: Loss 1164268.75, time 68.4712s
+Epoch 784: Loss 1169577.75, time 68.4232s
+Epoch 785: Loss 1166215.75, time 68.4708s
+Epoch 786: Loss 1163590.75, time 68.5267s
+Epoch 787: Loss 1171544.0, time 68.5055s
+Epoch 788: Loss 1167529.25, time 68.4750s
+Epoch 789: Loss 1165434.125, time 68.4754s
+Epoch 790: Loss 1165356.375, time 68.4288s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_790.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 791: Loss 1171548.25, time 68.3954s
+Epoch 792: Loss 1155905.375, time 68.4536s
+Epoch 793: Loss 1175992.75, time 68.4822s
+Epoch 794: Loss 1157663.875, time 68.6220s
+Epoch 795: Loss 1166569.875, time 68.4750s
+Epoch 796: Loss 1171106.0, time 68.5628s
+Epoch 797: Loss 1167591.625, time 68.5828s
+Epoch 798: Loss 1165808.25, time 68.4522s
+Epoch 799: Loss 1158437.25, time 68.3751s
+Epoch 800: Loss 1160322.75, time 68.4974s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_800.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 801: Loss 1161943.0, time 68.5041s
+Epoch 802: Loss 1165486.75, time 68.4139s
+Epoch 803: Loss 1166060.875, time 68.4218s
+Epoch 804: Loss 1163553.5, time 68.5797s
+Epoch 805: Loss 1162448.0, time 68.4276s
+Epoch 806: Loss 1161174.625, time 68.5310s
+Epoch 807: Loss 1157404.625, time 68.4356s
+Epoch 808: Loss 1161017.25, time 68.4828s
+Epoch 809: Loss 1162990.125, time 68.2934s
+Epoch 810: Loss 1154152.0, time 68.4821s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_810.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 811: Loss 1166160.25, time 68.2370s
+Epoch 812: Loss 1161372.25, time 68.3021s
+Epoch 813: Loss 1151016.75, time 68.4049s
+Epoch 814: Loss 1167175.875, time 68.3089s
+Epoch 815: Loss 1154376.5, time 68.4238s
+Epoch 816: Loss 1153540.25, time 68.5742s
+Epoch 817: Loss 1163502.0, time 68.3752s
+Epoch 818: Loss 1156582.625, time 68.3720s
+Epoch 819: Loss 1154970.875, time 68.4556s
+Epoch 820: Loss 1155709.25, time 68.5315s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_820.pkl
+Epoch 821: Loss 1162067.125, time 68.4839s
+Epoch 822: Loss 1157688.125, time 68.5585s
+Epoch 823: Loss 1149610.25, time 68.3696s
+Epoch 824: Loss 1154891.125, time 68.3607s
+Epoch 825: Loss 1154688.0, time 68.4100s
+Epoch 826: Loss 1155048.25, time 68.4813s
+Epoch 827: Loss 1152495.25, time 68.4123s
+Epoch 828: Loss 1151332.75, time 68.4263s
+Epoch 829: Loss 1151879.875, time 68.4529s
+Epoch 830: Loss 1153623.75, time 68.4741s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_830.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 831: Loss 1153484.375, time 68.3927s
+Epoch 832: Loss 1144080.0, time 68.4034s
+Epoch 833: Loss 1146298.0, time 68.4080s
+Epoch 834: Loss 1160845.125, time 68.3793s
+Epoch 835: Loss 1154378.0, time 68.4415s
+Epoch 836: Loss 1153709.0, time 68.3589s
+Epoch 837: Loss 1143684.0, time 68.4018s
+Epoch 838: Loss 1153482.375, time 68.4654s
+Epoch 839: Loss 1148318.5, time 68.4353s
+Epoch 840: Loss 1158143.75, time 68.3802s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_840.pkl
+Epoch 841: Loss 1141651.375, time 68.3922s
+Epoch 842: Loss 1145978.625, time 68.4515s
+Epoch 843: Loss 1145785.125, time 68.4333s
+Epoch 844: Loss 1151417.5, time 68.3994s
+Epoch 845: Loss 1147799.375, time 68.4011s
+Epoch 846: Loss 1144786.125, time 68.4117s
+Epoch 847: Loss 1152977.0, time 68.5053s
+Epoch 848: Loss 1135632.25, time 68.4451s
+Epoch 849: Loss 1148336.375, time 68.4809s
+Epoch 850: Loss 1145413.875, time 68.2713s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_850.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 851: Loss 1142873.75, time 68.4906s
+Epoch 852: Loss 1142457.75, time 68.3677s
+Epoch 853: Loss 1145219.375, time 68.4222s
+Epoch 854: Loss 1143031.375, time 68.4261s
+Epoch 855: Loss 1140177.0, time 68.4481s
+Epoch 856: Loss 1144592.0, time 68.5516s
+Epoch 857: Loss 1132705.875, time 68.7493s
+Epoch 858: Loss 1143917.375, time 68.3846s
+Epoch 859: Loss 1141061.125, time 68.3998s
+Epoch 860: Loss 1150191.75, time 68.3615s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_860.pkl
+Epoch 861: Loss 1142873.5, time 68.3363s
+Epoch 862: Loss 1137875.625, time 68.4359s
+Epoch 863: Loss 1142966.0, time 68.4330s
+Epoch 864: Loss 1144946.75, time 68.4160s
+Epoch 865: Loss 1146293.75, time 68.4785s
+Epoch 866: Loss 1141738.875, time 68.3487s
+Epoch 867: Loss 1136330.25, time 68.3587s
+Epoch 868: Loss 1138608.0, time 68.3074s
+Epoch 869: Loss 1139366.25, time 68.3944s
+Epoch 870: Loss 1136018.875, time 68.4247s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_870.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 871: Loss 1136631.25, time 68.4263s
+Epoch 872: Loss 1138345.625, time 68.4020s
+Epoch 873: Loss 1135510.375, time 68.4217s
+Epoch 874: Loss 1142491.25, time 68.4819s
+Epoch 875: Loss 1139170.875, time 68.3148s
+Epoch 876: Loss 1138249.75, time 68.4089s
+Epoch 877: Loss 1136141.5, time 68.2777s
+Epoch 878: Loss 1135064.875, time 68.3900s
+Epoch 879: Loss 1137394.25, time 68.2740s
+Epoch 880: Loss 1140034.25, time 68.2715s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_880.pkl
+Epoch 881: Loss 1130217.0, time 68.2504s
+Epoch 882: Loss 1129903.75, time 68.2111s
+Epoch 883: Loss 1136662.75, time 68.2893s
+Epoch 884: Loss 1132957.375, time 68.1994s
+Epoch 885: Loss 1138513.625, time 68.2931s
+Epoch 886: Loss 1124602.875, time 68.3241s
+Epoch 887: Loss 1134320.625, time 68.1922s
+Epoch 888: Loss 1136900.75, time 68.2803s
+Epoch 889: Loss 1134308.25, time 68.2829s
+Epoch 890: Loss 1135057.25, time 68.3262s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_890.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 891: Loss 1131574.875, time 68.3539s
+Epoch 892: Loss 1130466.5, time 68.3808s
+Epoch 893: Loss 1135016.0, time 68.3021s
+Epoch 894: Loss 1128073.25, time 68.2950s
+Epoch 895: Loss 1136418.75, time 68.2082s
+Epoch 896: Loss 1135933.5, time 68.3439s
+Epoch 897: Loss 1126622.5, time 68.3336s
+Epoch 898: Loss 1131670.625, time 68.2675s
+Epoch 899: Loss 1127397.75, time 68.2780s
+Epoch 900: Loss 1129171.25, time 68.3080s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_900.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 901: Loss 1128494.625, time 68.2859s
+Epoch 902: Loss 1124839.625, time 68.2507s
+Epoch 903: Loss 1128316.75, time 68.1839s
+Epoch 904: Loss 1133605.25, time 68.3446s
+Epoch 905: Loss 1129976.75, time 68.3365s
+Epoch 906: Loss 1125468.125, time 68.2987s
+Epoch 907: Loss 1123309.375, time 68.2536s
+Epoch 908: Loss 1124042.0, time 68.2155s
+Epoch 909: Loss 1124538.5, time 68.3013s
+Epoch 910: Loss 1131088.875, time 68.3757s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_910.pkl
+Epoch 911: Loss 1125979.5, time 68.3681s
+Epoch 912: Loss 1124980.125, time 68.2831s
+Epoch 913: Loss 1120251.75, time 68.1970s
+Epoch 914: Loss 1128580.375, time 68.1455s
+Epoch 915: Loss 1125591.875, time 68.2499s
+Epoch 916: Loss 1121421.5, time 68.2245s
+Epoch 917: Loss 1129522.5, time 68.2867s
+Epoch 918: Loss 1123510.875, time 68.5058s
+Epoch 919: Loss 1124614.375, time 68.4621s
+Epoch 920: Loss 1123979.625, time 68.2408s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_920.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 921: Loss 1122222.75, time 68.3895s
+Epoch 922: Loss 1125821.0, time 68.1974s
+Epoch 923: Loss 1121779.75, time 68.3212s
+Epoch 924: Loss 1122665.25, time 68.4133s
+Epoch 925: Loss 1121954.625, time 68.3582s
+Epoch 926: Loss 1118210.125, time 68.2997s
+Epoch 927: Loss 1121870.125, time 68.4541s
+Epoch 928: Loss 1119841.375, time 68.3098s
+Epoch 929: Loss 1125471.125, time 68.2804s
+Epoch 930: Loss 1116490.5, time 68.2914s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_930.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 931: Loss 1120131.375, time 68.3100s
+Epoch 932: Loss 1120323.25, time 68.3826s
+Epoch 933: Loss 1118582.875, time 68.3500s
+Epoch 934: Loss 1111879.25, time 68.3967s
+Epoch 935: Loss 1117761.0, time 68.4192s
+Epoch 936: Loss 1114578.5, time 68.3776s
+Epoch 937: Loss 1116327.125, time 68.4821s
+Epoch 938: Loss 1118200.375, time 68.5048s
+Epoch 939: Loss 1119075.875, time 68.5309s
+Epoch 940: Loss 1113035.0, time 68.5178s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_940.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 941: Loss 1120087.0, time 68.7466s
+Epoch 942: Loss 1116179.0, time 68.5973s
+Epoch 943: Loss 1117051.625, time 68.5478s
+Epoch 944: Loss 1110119.375, time 68.6008s
+Epoch 945: Loss 1121019.0, time 68.6284s
+Epoch 946: Loss 1109481.25, time 68.5171s
+Epoch 947: Loss 1118065.75, time 68.5389s
+Epoch 948: Loss 1112464.75, time 68.4991s
+Epoch 949: Loss 1119181.25, time 68.5529s
+Epoch 950: Loss 1113634.0, time 68.6120s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_950.pkl
+Epoch 951: Loss 1113455.375, time 68.4636s
+Epoch 952: Loss 1115269.125, time 68.5416s
+Epoch 953: Loss 1107442.625, time 68.6351s
+Epoch 954: Loss 1109970.875, time 68.4927s
+Epoch 955: Loss 1117872.25, time 68.6126s
+Epoch 956: Loss 1118370.0, time 68.5181s
+Epoch 957: Loss 1106502.75, time 68.6010s
+Epoch 958: Loss 1111520.625, time 68.5473s
+Epoch 959: Loss 1107489.0, time 68.5863s
+Epoch 960: Loss 1109574.25, time 68.5967s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_960.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 961: Loss 1111497.75, time 68.6802s
+Epoch 962: Loss 1107862.375, time 68.6560s
+Epoch 963: Loss 1112505.75, time 68.5843s
+Epoch 964: Loss 1111986.25, time 68.5473s
+Epoch 965: Loss 1112191.5, time 68.5564s
+Epoch 966: Loss 1110407.25, time 68.5294s
+Epoch 967: Loss 1113493.0, time 68.6641s
+Epoch 968: Loss 1113056.625, time 68.5504s
+Epoch 969: Loss 1113084.75, time 68.6308s
+Epoch 970: Loss 1108280.75, time 68.6293s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_970.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 971: Loss 1105580.5, time 68.6928s
+Epoch 972: Loss 1112508.5, time 68.5415s
+Epoch 973: Loss 1109070.125, time 68.5038s
+Epoch 974: Loss 1105998.875, time 68.6265s
+Epoch 975: Loss 1110642.875, time 68.4783s
+Epoch 976: Loss 1101039.0, time 68.5866s
+Epoch 977: Loss 1104805.5, time 68.6060s
+Epoch 978: Loss 1098561.875, time 68.5673s
+Epoch 979: Loss 1108895.0, time 68.4967s
+Epoch 980: Loss 1107740.5, time 68.6758s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_980.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 981: Loss 1106891.625, time 68.5878s
+Epoch 982: Loss 1103148.125, time 68.6093s
+Epoch 983: Loss 1105401.375, time 68.5079s
+Epoch 984: Loss 1103663.875, time 68.5345s
+Epoch 985: Loss 1106914.125, time 68.6098s
+Epoch 986: Loss 1103027.875, time 68.5407s
+Epoch 987: Loss 1102196.5, time 68.5851s
+Epoch 988: Loss 1106823.0, time 68.6114s
+Epoch 989: Loss 1106381.875, time 68.5939s
+Epoch 990: Loss 1098569.875, time 68.5759s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_990.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 991: Loss 1104748.25, time 68.5534s
+Epoch 992: Loss 1105675.375, time 68.6471s
+Epoch 993: Loss 1098037.625, time 68.4890s
+Epoch 994: Loss 1101040.875, time 68.4796s
+Epoch 995: Loss 1099388.75, time 68.4613s
+Epoch 996: Loss 1103338.0, time 68.5691s
+Epoch 997: Loss 1102626.5, time 68.5757s
+Epoch 998: Loss 1097917.25, time 68.5013s
+Epoch 999: Loss 1096369.125, time 68.4968s
+Epoch 1000: Loss 1100556.375, time 68.5444s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1000.pkl
+Epoch 1001: Loss 1093308.0, time 68.5516s
+Epoch 1002: Loss 1093715.375, time 68.4454s
+Epoch 1003: Loss 1100475.75, time 68.4268s
+Epoch 1004: Loss 1102829.625, time 68.4657s
+Epoch 1005: Loss 1103502.0, time 68.4057s
+Epoch 1006: Loss 1093876.625, time 68.5439s
+Epoch 1007: Loss 1093093.25, time 68.4581s
+Epoch 1008: Loss 1100524.0, time 68.4098s
+Epoch 1009: Loss 1092165.875, time 68.4155s
+Epoch 1010: Loss 1102709.375, time 68.4110s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1010.pkl
+Epoch 1011: Loss 1093144.875, time 68.3571s
+Epoch 1012: Loss 1099556.25, time 68.4483s
+Epoch 1013: Loss 1101304.875, time 68.4889s
+Epoch 1014: Loss 1099321.75, time 68.4682s
+Epoch 1015: Loss 1093982.625, time 68.5263s
+Epoch 1016: Loss 1094213.875, time 68.3922s
+Epoch 1017: Loss 1100847.0, time 68.3447s
+Epoch 1018: Loss 1097748.375, time 68.4330s
+Epoch 1019: Loss 1094679.125, time 68.4191s
+Epoch 1020: Loss 1098809.125, time 68.3889s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1020.pkl
+Epoch 1021: Loss 1090720.625, time 68.3115s
+Epoch 1022: Loss 1089079.75, time 68.3194s
+Epoch 1023: Loss 1092425.875, time 68.4040s
+Epoch 1024: Loss 1100240.5, time 68.4735s
+Epoch 1025: Loss 1095937.375, time 68.5349s
+Epoch 1026: Loss 1088786.375, time 68.4396s
+Epoch 1027: Loss 1092442.25, time 68.3670s
+Epoch 1028: Loss 1097375.0, time 68.4828s
+Epoch 1029: Loss 1096892.75, time 68.3934s
+Epoch 1030: Loss 1100812.625, time 68.2961s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1030.pkl
+Epoch 1031: Loss 1095823.625, time 68.2873s
+Epoch 1032: Loss 1089777.375, time 68.3701s
+Epoch 1033: Loss 1086534.625, time 68.3193s
+Epoch 1034: Loss 1088242.5, time 68.2358s
+Epoch 1035: Loss 1091231.875, time 68.3093s
+Epoch 1036: Loss 1088704.5, time 68.3159s
+Epoch 1037: Loss 1091738.75, time 68.3234s
+Epoch 1038: Loss 1090722.125, time 68.2816s
+Epoch 1039: Loss 1087450.125, time 68.2694s
+Epoch 1040: Loss 1088702.625, time 68.3212s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1040.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1041: Loss 1092515.125, time 68.2580s
+Epoch 1042: Loss 1082027.25, time 68.4473s
+Epoch 1043: Loss 1090526.5, time 68.6029s
+Epoch 1044: Loss 1084942.5, time 68.6018s
+Epoch 1045: Loss 1093686.0, time 68.6729s
+Epoch 1046: Loss 1089124.25, time 68.5219s
+Epoch 1047: Loss 1086113.875, time 68.3231s
+Epoch 1048: Loss 1084773.875, time 68.5591s
+Epoch 1049: Loss 1087393.25, time 68.6475s
+Epoch 1050: Loss 1090777.625, time 68.4458s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1050.pkl
+Epoch 1051: Loss 1085652.0, time 68.3142s
+Epoch 1052: Loss 1091333.625, time 68.3385s
+Epoch 1053: Loss 1085133.5, time 68.6227s
+Epoch 1054: Loss 1086784.5, time 68.7272s
+Epoch 1055: Loss 1083244.625, time 68.6294s
+Epoch 1056: Loss 1086475.625, time 68.5194s
+Epoch 1057: Loss 1081464.875, time 68.4797s
+Epoch 1058: Loss 1086264.375, time 68.4428s
+Epoch 1059: Loss 1084304.5, time 68.5009s
+Epoch 1060: Loss 1092085.75, time 68.3859s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1060.pkl
+Epoch 1061: Loss 1084413.25, time 68.4151s
+Epoch 1062: Loss 1080245.625, time 68.5563s
+Epoch 1063: Loss 1082594.5, time 68.3278s
+Epoch 1064: Loss 1084454.25, time 68.2406s
+Epoch 1065: Loss 1085708.75, time 68.2985s
+Epoch 1066: Loss 1080322.75, time 68.2925s
+Epoch 1067: Loss 1088512.5, time 68.3305s
+Epoch 1068: Loss 1078327.375, time 68.2940s
+Epoch 1069: Loss 1081008.0, time 68.2748s
+Epoch 1070: Loss 1079093.5, time 68.1702s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1070.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1071: Loss 1087362.875, time 68.2821s
+Epoch 1072: Loss 1085441.375, time 68.2805s
+Epoch 1073: Loss 1081632.25, time 68.2420s
+Epoch 1074: Loss 1083094.375, time 68.2651s
+Epoch 1075: Loss 1076028.0, time 68.2163s
+Epoch 1076: Loss 1080182.5, time 68.3169s
+Epoch 1077: Loss 1079485.25, time 68.2926s
+Epoch 1078: Loss 1079311.5, time 68.2840s
+Epoch 1079: Loss 1082547.25, time 68.2820s
+Epoch 1080: Loss 1080256.75, time 68.3831s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1080.pkl
+Epoch 1081: Loss 1077048.75, time 68.3481s
+Epoch 1082: Loss 1084163.25, time 68.3721s
+Epoch 1083: Loss 1082190.375, time 68.6602s
+Epoch 1084: Loss 1077743.75, time 68.6429s
+Epoch 1085: Loss 1075914.625, time 68.4960s
+Epoch 1086: Loss 1082531.5, time 68.3769s
+Epoch 1087: Loss 1082587.5, time 68.4402s
+Epoch 1088: Loss 1081526.875, time 68.3448s
+Epoch 1089: Loss 1076208.875, time 68.3954s
+Epoch 1090: Loss 1073167.625, time 68.1875s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1090.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1091: Loss 1080617.875, time 68.2137s
+Epoch 1092: Loss 1072779.375, time 68.1003s
+Epoch 1093: Loss 1075267.5, time 68.0393s
+Epoch 1094: Loss 1075139.75, time 68.3662s
+Epoch 1095: Loss 1076653.125, time 68.2223s
+Epoch 1096: Loss 1076042.75, time 68.2087s
+Epoch 1097: Loss 1075913.5, time 68.2314s
+Epoch 1098: Loss 1077118.625, time 68.2437s
+Epoch 1099: Loss 1071730.5, time 68.1992s
+Epoch 1100: Loss 1076134.625, time 68.2289s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1100.pkl
+Epoch 1101: Loss 1079508.5, time 68.2659s
+Epoch 1102: Loss 1073509.0, time 68.2863s
+Epoch 1103: Loss 1076551.75, time 68.2403s
+Epoch 1104: Loss 1074462.5, time 68.2403s
+Epoch 1105: Loss 1076110.875, time 68.3193s
+Epoch 1106: Loss 1073634.5, time 68.2981s
+Epoch 1107: Loss 1072597.375, time 68.2580s
+Epoch 1108: Loss 1070936.375, time 68.2210s
+Epoch 1109: Loss 1071559.375, time 68.2451s
+Epoch 1110: Loss 1074931.25, time 68.4464s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1110.pkl
+Epoch 1111: Loss 1069477.0, time 68.4221s
+Epoch 1112: Loss 1074806.5, time 68.4142s
+Epoch 1113: Loss 1069834.25, time 68.3835s
+Epoch 1114: Loss 1072715.625, time 68.3224s
+Epoch 1115: Loss 1071844.75, time 68.5759s
+Epoch 1116: Loss 1063387.5, time 68.9074s
+Epoch 1117: Loss 1073120.375, time 68.7200s
+Epoch 1118: Loss 1072779.0, time 68.5940s
+Epoch 1119: Loss 1066491.625, time 68.6449s
+Epoch 1120: Loss 1073996.0, time 68.6270s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1120.pkl
+Epoch 1121: Loss 1068043.875, time 68.5491s
+Epoch 1122: Loss 1068931.625, time 68.5390s
+Epoch 1123: Loss 1067070.125, time 68.6849s
+Epoch 1124: Loss 1073533.75, time 68.7898s
+Epoch 1125: Loss 1069376.875, time 68.7098s
+Epoch 1126: Loss 1067653.375, time 68.9379s
+Epoch 1127: Loss 1063990.0, time 69.2025s
+Epoch 1128: Loss 1068934.125, time 68.9683s
+Epoch 1129: Loss 1068526.5, time 68.4518s
+Epoch 1130: Loss 1068558.0, time 68.4548s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1130.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1131: Loss 1065679.875, time 68.6285s
+Epoch 1132: Loss 1064835.25, time 68.6755s
+Epoch 1133: Loss 1062793.75, time 68.5302s
+Epoch 1134: Loss 1066823.625, time 68.3749s
+Epoch 1135: Loss 1069505.625, time 68.3765s
+Epoch 1136: Loss 1066537.25, time 68.4342s
+Epoch 1137: Loss 1059476.5, time 68.5273s
+Epoch 1138: Loss 1069744.375, time 68.4682s
+Epoch 1139: Loss 1065461.0, time 68.3728s
+Epoch 1140: Loss 1060924.75, time 68.4399s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1140.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1141: Loss 1062747.0, time 68.5611s
+Epoch 1142: Loss 1061759.75, time 68.4163s
+Epoch 1143: Loss 1064141.25, time 68.4167s
+Epoch 1144: Loss 1065230.625, time 68.5390s
+Epoch 1145: Loss 1059051.5, time 68.4496s
+Epoch 1146: Loss 1070988.625, time 69.0114s
+Epoch 1147: Loss 1064590.25, time 68.6843s
+Epoch 1148: Loss 1063937.125, time 68.7256s
+Epoch 1149: Loss 1066685.5, time 68.6932s
+Epoch 1150: Loss 1065884.25, time 68.6439s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1150.pkl
+Epoch 1151: Loss 1063355.625, time 68.6598s
+Epoch 1152: Loss 1061193.5, time 68.6379s
+Epoch 1153: Loss 1058716.375, time 68.6031s
+Epoch 1154: Loss 1061250.75, time 68.5836s
+Epoch 1155: Loss 1061689.5, time 68.6201s
+Epoch 1156: Loss 1066379.75, time 68.1046s
+Epoch 1157: Loss 1058441.125, time 68.3163s
+Epoch 1158: Loss 1057695.0, time 68.5675s
+Epoch 1159: Loss 1063825.875, time 68.8318s
+Epoch 1160: Loss 1060202.75, time 68.3569s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1160.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1161: Loss 1061216.125, time 68.6071s
+Epoch 1162: Loss 1055463.875, time 68.4164s
+Epoch 1163: Loss 1062245.25, time 68.2904s
+Epoch 1164: Loss 1060277.75, time 68.2092s
+Epoch 1165: Loss 1055094.75, time 68.2423s
+Epoch 1166: Loss 1059043.875, time 68.2030s
+Epoch 1167: Loss 1060493.375, time 68.1600s
+Epoch 1168: Loss 1063279.875, time 68.2102s
+Epoch 1169: Loss 1054542.875, time 68.2191s
+Epoch 1170: Loss 1058860.25, time 68.2667s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1170.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1171: Loss 1058046.375, time 68.2411s
+Epoch 1172: Loss 1057854.875, time 68.3445s
+Epoch 1173: Loss 1054403.0, time 68.4253s
+Epoch 1174: Loss 1055766.375, time 68.4213s
+Epoch 1175: Loss 1054131.125, time 68.3745s
+Epoch 1176: Loss 1056953.75, time 68.4322s
+Epoch 1177: Loss 1059525.875, time 68.4128s
+Epoch 1178: Loss 1054190.375, time 68.3403s
+Epoch 1179: Loss 1058483.875, time 68.4716s
+Epoch 1180: Loss 1056107.5, time 68.3984s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1180.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1181: Loss 1056272.0, time 68.4183s
+Epoch 1182: Loss 1055641.25, time 68.4852s
+Epoch 1183: Loss 1053685.5, time 68.3166s
+Epoch 1184: Loss 1054559.125, time 68.4786s
+Epoch 1185: Loss 1053610.625, time 68.3654s
+Epoch 1186: Loss 1054355.5, time 68.3912s
+Epoch 1187: Loss 1056515.5, time 68.4369s
+Epoch 1188: Loss 1058670.375, time 68.4236s
+Epoch 1189: Loss 1053189.875, time 68.6213s
+Epoch 1190: Loss 1055668.125, time 68.5411s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1190.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1191: Loss 1051684.25, time 68.7071s
+Epoch 1192: Loss 1053207.875, time 68.5476s
+Epoch 1193: Loss 1056904.25, time 68.4701s
+Epoch 1194: Loss 1049064.625, time 68.3973s
+Epoch 1195: Loss 1049235.25, time 68.4244s
+Epoch 1196: Loss 1052848.125, time 68.4257s
+Epoch 1197: Loss 1049336.375, time 68.3966s
+Epoch 1198: Loss 1053671.125, time 68.3664s
+Epoch 1199: Loss 1055557.5, time 68.6521s
+Epoch 1200: Loss 1055982.125, time 68.2815s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1200.pkl
+Epoch 1201: Loss 1056657.625, time 68.1517s
+Epoch 1202: Loss 1051988.625, time 68.2297s
+Epoch 1203: Loss 1053191.75, time 68.2184s
+Epoch 1204: Loss 1048555.75, time 68.2033s
+Epoch 1205: Loss 1053779.125, time 68.2886s
+Epoch 1206: Loss 1045645.0625, time 68.1159s
+Epoch 1207: Loss 1047926.9375, time 68.3971s
+Epoch 1208: Loss 1051628.625, time 68.3774s
+Epoch 1209: Loss 1047946.0, time 68.4417s
+Epoch 1210: Loss 1048365.875, time 68.4024s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1210.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1211: Loss 1051977.25, time 68.4154s
+Epoch 1212: Loss 1048659.75, time 68.3718s
+Epoch 1213: Loss 1046838.25, time 68.1692s
+Epoch 1214: Loss 1048802.0, time 68.3213s
+Epoch 1215: Loss 1050200.875, time 68.3984s
+Epoch 1216: Loss 1050558.625, time 68.4247s
+Epoch 1217: Loss 1044606.0, time 68.3589s
+Epoch 1218: Loss 1043601.0, time 68.2834s
+Epoch 1219: Loss 1046598.375, time 68.3007s
+Epoch 1220: Loss 1045627.6875, time 68.5145s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1220.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1221: Loss 1043653.5, time 68.4186s
+Epoch 1222: Loss 1043843.9375, time 68.2944s
+Epoch 1223: Loss 1044064.0, time 68.4472s
+Epoch 1224: Loss 1048173.75, time 68.4774s
+Epoch 1225: Loss 1045150.625, time 68.6184s
+Epoch 1226: Loss 1043454.8125, time 68.9062s
+Epoch 1227: Loss 1044448.25, time 68.4818s
+Epoch 1228: Loss 1045746.625, time 68.4068s
+Epoch 1229: Loss 1046066.25, time 68.3344s
+Epoch 1230: Loss 1040825.8125, time 68.2270s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1230.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1231: Loss 1045333.625, time 68.6976s
+Epoch 1232: Loss 1043634.75, time 68.5314s
+Epoch 1233: Loss 1041176.6875, time 68.4438s
+Epoch 1234: Loss 1040841.5625, time 68.4897s
+Epoch 1235: Loss 1043396.1875, time 68.5227s
+Epoch 1236: Loss 1044866.0, time 68.5825s
+Epoch 1237: Loss 1043778.0, time 68.4638s
+Epoch 1238: Loss 1044475.6875, time 68.4138s
+Epoch 1239: Loss 1039611.4375, time 68.4519s
+Epoch 1240: Loss 1040104.25, time 68.5413s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1240.pkl
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_best.pkl
+Epoch 1241: Loss 1043616.4375, time 68.6015s
+Epoch 1242: Loss 1045228.1875, time 68.6661s
+Epoch 1243: Loss 1041813.0625, time 68.7113s
+Epoch 1244: Loss 1039802.5, time 68.7067s
+Epoch 1245: Loss 1041201.3125, time 68.5536s
+Epoch 1246: Loss 1046783.4375, time 68.6195s
+Epoch 1247: Loss 1039750.0625, time 68.7712s
+Epoch 1248: Loss 1040254.8125, time 68.5797s
+Epoch 1249: Loss 1036207.6875, time 68.4778s
+Epoch 1250: Loss 1040575.625, time 68.6398s
+Save model to snapshot/Reconstruct_diffractiontest_20210509_foldnet/models/diffractiontest_1250.pkl
+Epoch 1251: Loss 1042672.1875, time 68.5514s
+Epoch 1252: Loss 1037108.125, time 68.5680s
+Epoch 1253: Loss 1045532.375, time 68.5283s
+Epoch 1254: Loss 1041784.5625, time 68.4893s
