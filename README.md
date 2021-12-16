@@ -10,7 +10,7 @@ This repository contains the source codes of the following paper:
 X-ray nanoprobe with data-driven modeling},
   author={Li, Jizhou and Hong, Yanshuai and Yan, Hanfei and Chu, Yong S. and Pianetta, Piero and Li, Hong and Ratner, Daniel and Huang, Xiaojing and Yu, Xiqian and Liu, Yijin},
   year={2021},
-  note={Under review}
+  note={doi: 10.1016/j.ensm.2021.12.019}
 }
 ```
 # Background & Key Contributions
